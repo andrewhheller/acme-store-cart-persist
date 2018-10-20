@@ -1,0 +1,11 @@
+.main {
+  margin-left: 15px;
+}
+
+.selected {
+  font-weight: bold;
+}
+
+.nudge {
+  margin-left: 10px;
+}
