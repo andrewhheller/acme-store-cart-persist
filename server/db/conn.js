@@ -1,4 +1,4 @@
 const Sequelize = require('sequelize');
-const conn = new Sequelize('postgres://localhost/acme_store', { logging: true });
+const conn = new Sequelize(process.env.DATABASE_URL, { logging: true });
 
 module.exports = conn;
